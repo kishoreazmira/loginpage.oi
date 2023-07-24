@@ -1,0 +1,16 @@
+img{
+    align-items: center;
+  }
+  body {
+      background-color: lightcyan;
+      align-items: center;
+      text-align: center;
+  
+    }
+    @media only screen and (max-width: 768px) and (min-width: 768px)
+    {
+      img{
+          display:flex;
+          flex-direction: column;
+      }
+    }
